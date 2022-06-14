@@ -1,11 +1,15 @@
 {
-  "name": "jamesiarmes/php-ntlm",
-  "description": "Library for communicating with Microsoft services using NTLM authentication.",
+  "name": "vissionet-public/php-ntlm",
+  "description": "Fork for PHP 8.1 of library for communicating with Microsoft services using NTLM authentication.",
   "license": "MIT",
   "authors": [
     {
       "name": "James Armes",
       "email": "jamesiarmes@gmail.com"
+    },
+    {
+      "name": "VISSIO-Programmierung",
+      "email": "programmierung@vissio.de"
     }
   ],
   "prefer-stable": true,
