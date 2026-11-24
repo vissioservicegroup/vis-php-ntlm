@@ -81,6 +81,11 @@ characters.
 - warn_on_bad_chars (boolean, default: false): Trigger a warning if bad
 characters are stripped. This has no affect unless strip_bad_chars is true.
 
+By default only NTLM authentication is offered. Basic authentication sends the
+password in cleartext (base64) to whichever server asks for it, so it is only
+used if you opt in explicitly, for example with
+`'curlopts' => array(CURLOPT_HTTPAUTH => CURLAUTH_BASIC | CURLAUTH_NTLM)`.
+
 ## Projects that use php-ntlm
 The following is a list of known projects that use this library. If you would
 like to add your project to the list, please open a pull request to update this
